@@ -3,9 +3,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello Test')
+        stage('Hello test') {
             steps {
-                echo 'Hello World Mohamed'
+                echo 'Hello World test'
                  echo 'from github wwwwwwwwwwwwwwwwwwwwwwww'
             }
         }
@@ -39,8 +39,7 @@ pipeline {
         }
         
         
-        
-        
+          
         
     }
 }
